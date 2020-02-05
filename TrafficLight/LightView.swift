@@ -19,6 +19,12 @@ class LightView: UIView {
     
     
     //new Task
+    
+    
+    
+    // new Task2
+    
+    
     var colorState = ColorState.deactive {
         didSet {
             backgroundColor = color.withAlphaComponent(colorState == .active ? 1 : 0.3)
