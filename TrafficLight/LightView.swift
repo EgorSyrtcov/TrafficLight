@@ -17,6 +17,8 @@ enum ColorState {
 
 class LightView: UIView {
     
+    
+    //new Task
     var colorState = ColorState.deactive {
         didSet {
             backgroundColor = color.withAlphaComponent(colorState == .active ? 1 : 0.3)
